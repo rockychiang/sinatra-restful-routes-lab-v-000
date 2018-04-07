@@ -1,7 +1,6 @@
 <h1>New Recipe</h1>
 
 <form action="/recipes" method="post">
-  <input id="hidden" type="hidden" name="_method" value="patch">
   <p>
     <label for="name">Name: </label>
     <input id="name" name="name" type="text" value="<%=@recipe.name%>">
