@@ -6,6 +6,16 @@
 <form action="/recipes/<%=@recipe.id%>" method="post">
   <input id="hidden" type="hidden" name="_method" value="patch">
   <p>
-  <label for="name"><%=@recipe.name%></label>
+    <label for="name"><%=@recipe.name%></label>
+    <input id="name" name="name" type="text">
+  </p>
+  <p>
+    <label for="name"><%=@recipe.name%></label>
+    <input id="name" name="name" type="text">
+  </p>
+  <p>
+    <label for="name"><%=@recipe.name%></label>
+    <input id="name" name="name" type="text">
+  </p>
   <input type="submit" value="Edit This Recipe">
 </form>
