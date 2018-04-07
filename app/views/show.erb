@@ -3,4 +3,7 @@
 <p><%=recipe.ingredients%></p>
 <h2>Cook Time</h2>
 <p><%=recipe.cook_time%></p>
+<form action="/recipes/<%=recipe.id%>/delete" method="post">
+
+</form>
 <a href="/recipes/<%=recipe.id%>/delete"><button>Delete This Recipe</button></a>
